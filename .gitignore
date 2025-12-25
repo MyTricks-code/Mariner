@@ -1,0 +1,65 @@
+# Global
+.env
+*.log
+
+# --------------------
+# Python
+# --------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# --------------------
+# FastAPI / Uvicorn
+# --------------------
+*.log
+logs/
+uvicorn.log
+
+# --------------------
+# Node / Frontend (if React)
+# --------------------
+node_modules/
+dist/
+build/
+npm-debug.log*
+yarn-error.log*
+
+# --------------------
+# OS / Editor
+# --------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# --------------------
+# ADB / Android
+# --------------------
+platform-tools/
+adbkey
+adbkey.pub
+*.apk
+
+# --------------------
+# WhatsApp / Automation Artifacts
+# --------------------
+screenshots/
+screenrecordings/
+*.png
+*.jpg
+*.mp4
+
+# --------------------
+# Secrets
+# --------------------
+*.json
+*.pem
+*.key

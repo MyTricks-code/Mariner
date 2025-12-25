@@ -1,0 +1,12 @@
+# WhatsMeow session / secrets
+*.db
+whatsmeow.db
+
+# Go build artifacts
+bin/
+*.exe
+
+# OS
+./env
+.DS_Store
+Thumbs.db
